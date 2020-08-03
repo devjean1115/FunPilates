@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+
+#sub_img{width: 971px;height: 179px;
+background-image: url("../images/company/sub_back.png");
+background-repeat: no-repeat;
+background-position: left top;}
+
+#sub_menu{
+	width: 238px; 
+	float: left;
+	margin: 20px;
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:1em;  
+	position: absolute;}
+
+#sub_menu ul{margin: 20px 0 0 10px; list-style: none;}
+
+#sub_menu a{text-decoration: none;color: #666;
+display:block;height: 15px;width: 150px;padding: 7px;
+border-bottom-width: 1px;border-bottom-style: dotted;
+border-bottom-color: #999;
+background-image: url("../images/bullet.gif");
+background-repeat: no-repeat;
+background-position: right center;}
+
+#sub_menu a:hover{color: #F90;
+background-image: url("../images/bullet_orange.gif");
+background-repeat: no-repeat;
+background-position: right center;}
+
+article{float: right;width: 660px;
+padding-right: 30px;
+font-family: Verdana,Geneva,sans-serif;
+font-size: 1em;line-height: 1.5em}
+
+article h1{font-family: "Times New Roman";
+font-size: 45px; color: #CCC; margin: 30px 0;
+font-weight: normal;}
+
+article h2{font-family: "Times New Roman";
+font-size: 30px; color: #CCC; margin: 20px 0;
+font-weight: normal;}
+
+article p{padding-left: 10px; font-size: 14px}
+figure.ceo{float: right; margin-right : 20px;}
+figure.manager, figure.pt_trainer, figure.gx_trainer{
+	float: left; margin: 5px;}
+
+figcaption{text-align: center;color:#39F font }
+
+.clear{clear: both;}
+
+/*------------------*/
+#sub_img_center{width: 971px;height: 179px;
+background-image: url("../images/center/sub_back.png");
+background-repeat: no-repeat;
+background-position: left top;}
+
+fieldset#reservationField{width: 670px;
+border : 0;
+border-collapse: collapse;}
+
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+     
+fieldset#reservationField th{height: 20px;
+text-transform: capitalize;font-size: 14px;
+font-family: seo; font-weight: bold;padding: 5px;
+background-image: url("../images/center/t_back.jpg");
+background-repeat: repeat-x;
+background-position: center center; color:#FFF }
+
+fieldset#reservationField td{text-align: center;
+padding: 6px 0; border-bottom-width: 1px;
+border-bottom-style: dotted;border-bottom-color: #999}
+
+fieldset#reservationField th.time{width: 150px; 
+letter-spacing: 0.7em; 
+text-align:center;}
+
+fieldset#reservationListField{width: 670px;
+border-collapse: collapse;}
+
+fieldset#reservationListField th{height: 20px;
+text-transform: capitalize;font-size: 14px;
+font-family: seo; font-weight: bold;padding: 5px;
+background-image: url("../images/center/t_back.jpg");
+background-repeat: repeat-x;
+background-position: center center; color:#FFF }
+
+fieldset#reservationListField td{text-align: center;
+padding: 6px 0; border-bottom-width: 1px;
+border-bottom-style: dotted;border-bottom-color: #999}
+
+
+fieldset#reservationListField th.level{width: 120px; 
+letter-spacing: 0.7em; 
+text-align:center;}
+fieldset#reservationListField th.class{width: 120px; 
+letter-spacing: 0.7em; 
+text-align:center;}
+fieldset#reservationListField th.date{width: 120px; 
+letter-spacing: 0.7em; 
+text-align:center;}
+fieldset#reservationListField th.time{width: 60px; 
+letter-spacing: 0.7em; 
+text-align:center;}
+fieldset#reservationListField th.btns{width: 120px; 
+letter-spacing: 0.7em; 
+text-align:center;}
+
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;}
+
+/*------------------*/
+
+/*------------------*/
+#sub_img_member{width: 971px;height: 179px;
+background-image: url("../images/member/sub_back.png");
+background-repeat: no-repeat;
+background-position: left top;}
+
+fieldset#reservationField {margin:10px 0 0 0; width: 670px}
+
+fieldset#reservationField{padding: 10px 0 20px 5px;
+border: none;}
+
+fieldset#reservationField legend{font-family: seo;
+font-size: 20px; border-bottom: 1px dotted #666;
+width: 600px; padding: 5px 0;}
+
+fieldset#reservationField label{width: 140px;float: left;
+margin: 5px 0}
+
+fieldset#reservationField input{margin: 5px 0; border: 1px solid #999;
+background-color:#FCFDEA }
+
+fieldset#reservationField input.id{width: 100px;
+height: 18px;}
+fieldset#reservationField input.dup{width: 120px; height: 23px;
+border-radius:8px; border: none;
+margin: 0 0 0 5px; font-weight: bold;color: #FFF;
+background-image: url("../images/member/dup.jpg");
+background-repeat: repeat-x;
+background-position: center center;}
+
+fieldset#reservationField #buttons .submit,form#join #buttons .cancel{
+	height: 30px; width: 150px; border: 1px solid #666;
+	border-radius:10px; box-shadow:3px 3px 2px #CCC;
+	font-size: 14px;}
+
+fieldset#reservationField #buttons .submit,
+fieldset#reservationField #absent .submit,
+fieldset#reservationField #attend .submit,{
+background-image: url("../images/member/submit_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;}
+
+fieldset#reservationField #buttons .cancel{margin: 0 0 0 20px;
+background-image: url("../images/member/cancel_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;}

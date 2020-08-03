@@ -1,0 +1,203 @@
+@CHARSET "UTF-8";@CHARSET "UTF-8";
+
+#sub_img{width: 971px;height: 179px;
+background-image: url("../images/company/sub_back.png");
+background-repeat: no-repeat;
+background-position: left top;}
+
+#sub_menu{
+	width: 238px; 
+	float: left;
+	margin: 20px;
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:1em;  
+	position: absolute;}
+
+#sub_menu ul{margin: 20px 0 0 10px; list-style: none;}
+
+#sub_menu a{text-decoration: none;color: #666;
+display:block;height: 15px;width: 150px;padding: 7px;
+border-bottom-width: 1px;border-bottom-style: dotted;
+border-bottom-color: #999;
+background-image: url("../images/bullet.gif");
+background-repeat: no-repeat;
+background-position: right center;}
+
+#sub_menu a:hover{color: #F90;
+background-image: url("../images/bullet_orange.gif");
+background-repeat: no-repeat;
+background-position: right center;}
+
+article{float: right;width: 660px;
+padding-right: 30px;
+font-family: Verdana,Geneva,sans-serif;
+font-size: 1em;line-height: 1.5em}
+
+article h1{font-family: "Times New Roman";
+font-size: 45px; color: #CCC; margin: 30px 0;
+font-weight: normal;}
+
+article h2{font-family: "Times New Roman";
+font-size: 30px; color: #CCC; margin: 20px 0;
+font-weight: normal;}
+
+.clear{clear: both;}
+
+/*------------------*/
+#sub_img_center{width: 971px;height: 179px;
+background-image: url("../images/center/sub_back.png");
+background-repeat: no-repeat;
+background-position: left top;}
+
+article table#QnA{width: 670px;
+border-collapse: collapse;}
+
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+     
+article th{height: 20px;
+					 text-transform: capitalize;font-size: 14px;
+					 font-family: seo; font-weight: bold;padding: 5px;
+					 background-image: url("../images/center/t_back.jpg");
+					 background-repeat: repeat-x;
+					 background-position: center center; color:#FFF }
+
+article table#QnA td{text-align: center;
+					 padding: 6px 0; border-bottom-width: 1px;
+					 border-bottom-style: dotted;border-bottom-color: #999}
+
+article table#QnA td.left{text-align: left;}
+
+article th.tno{width: 50px;
+			   border-top-left-radius:5px;
+			   border-bottom-left-radius:5px;
+			   text-align:center}
+article th.tstatus{width: 80px; text-align:center}
+article th.ttitle{width: 300px; letter-spacing: 0.7em; text-align:center;}
+article th.twriter{width: 70px; text-align:center;}
+article th.tdate{width: 105px; text-align:center;}
+article th.tcontent, th.ta, th.taDate{text-align:center}
+article td#tdDate, td#tdWriter, td#tdNum, td#tdStatus, td#taDate{text-align:center}
+article stextarea#replyarea{width:600px; heigth:200px; margin:0; padding:0; resize:none}
+article #table_search{margin: 15px 0 10px 0;
+float: right;}
+
+#table_search .input_box{height: 20px; width: 200px;
+border-radius:10px;background-color: #FEFDED;
+border: 1px solid #333}
+
+#table_search .btn{padding: 2px;margin: 0 0 0 5px;
+width: 90px;height: 23px;border: 1px solid #999;
+border-radius:10px;color: #FFF;
+background-image: url("../images/center/t_back.jpg");
+background-repeat: repeat-x;
+background-position: center center}
+
+#page_control{text-align: center; margin: 20px 0 0 0;
+margin-right: auto;margin-left: auto;}
+
+#page_control a{padding: 2px 5px; text-decoration: none;
+color: #333; margin: 0 5px;}
+
+#page_control a:hover{font-weight: bold; color: #F90;
+text-decoration: underline;}
+
+article table#boardQnA tr:hover{
+		  		  		   background-color: #EEFDFF;
+						   cursor: pointer;cursor: hand;}
+
+/*------------------*/
+
+/*------------------*/
+#sub_img_member{width: 971px;height: 179px;
+background-image: url("../images/member/sub_back.png");
+background-repeat: no-repeat;
+background-position: left top;}
+
+form#join {margin:10px 0 0 0; width: 670px}
+
+form#join fieldset{padding: 10px 0 20px 5px;
+border: none;}
+
+form#join fieldset legend{font-family: seo;
+font-size: 20px; border-bottom: 1px dotted #666;
+width: 600px; padding: 5px 0;}
+
+form#join label{width: 140px;float: left;
+margin: 5px 0}
+
+form#join input{margin: 5px 0; border: 1px solid #999;
+background-color:#FCFDEA }
+
+form#join input.id{width: 100px;
+height: 18px;}
+form#join input.dup{width: 120px; height: 23px;
+border-radius:8px; border: none;
+margin: 0 0 0 5px; font-weight: bold;color: #FFF;
+background-image: url("../images/member/dup.jpg");
+background-repeat: repeat-x;
+background-position: center center;}
+
+form#join #buttons .submit,form#join #buttons .cancel{
+	height: 30px; width: 150px; border: 1px solid #666;
+	border-radius:10px; box-shadow:3px 3px 2px #CCC;
+	font-size: 14px;}
+
+form#join #buttons .submit{
+background-image: url("../images/member/submit_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;}
+
+form#join #buttons .cancel{margin: 0 0 0 20px;
+background-image: url("../images/member/cancel_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;}
+
+/*-----------------------------------------------------*/
+form#wait_list {margin:10px 0 0 0; width: 670px}
+
+form#wait_list fieldset{padding: 10px 0 20px 5px;
+border: none;}
+
+form#wait_list fieldset legend{font-family: seo;
+font-size: 20px; border-bottom: 1px dotted #666;
+width: 600px; padding: 5px 0;}
+
+form#wait_list label{width: 140px;float: left;
+margin: 5px 0}
+
+form#wait_list input{margin: 5px 0; border: 1px solid #999;
+background-color:#FCFDEA }
+
+form#wait_list input.id{width: 100px;
+height: 18px;}
+form#wait_list input.dup{width: 120px; height: 23px;
+border-radius:8px; border: none;
+margin: 0 0 0 5px; font-weight: bold;color: #FFF;
+background-image: url("../images/member/dup.jpg");
+background-repeat: repeat-x;
+background-position: center center;}
+
+form#wait_list #buttons .submit,form#wait_list #buttons .cancel{
+	height: 30px; width: 150px; border: 1px solid #666;
+	border-radius:10px; box-shadow:3px 3px 2px #CCC;
+	font-size: 14px;}
+
+form#wait_list #buttons .submit{
+background-image: url("../images/member/submit_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;}
+
+form#wait_list #buttons .cancel{margin: 0 0 0 20px;
+background-image: url("../images/member/cancel_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;}
+
+/*-----------------------------------------------------*/
