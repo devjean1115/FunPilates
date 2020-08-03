@@ -22,6 +22,7 @@
 
 	<%
 		request.setCharacterEncoding("UTF-8");
+		System.out.println("gitHub test_25line");
 	%>
 
 	<div id=wrap>
